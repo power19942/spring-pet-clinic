@@ -43,6 +43,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:power19942/spring-pet-clinic.git</developerConnection>
-  </scm>
+    </scm>
 
 </project>

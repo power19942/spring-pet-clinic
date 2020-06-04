@@ -4,10 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "person")
-public class Person {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Person extends BaseEntity{
 
     @Column(name = "first_name")
     private String firstName;
@@ -15,14 +12,6 @@ public class Person {
     private String lastName;
 
     public Person() {
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getFirstName() {

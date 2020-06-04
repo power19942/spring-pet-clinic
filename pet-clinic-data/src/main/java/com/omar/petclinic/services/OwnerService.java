@@ -1,4 +1,4 @@
-package com.omar.petclinic.model.services;
+package com.omar.petclinic.services;
 
 import com.omar.petclinic.model.Owner;
 

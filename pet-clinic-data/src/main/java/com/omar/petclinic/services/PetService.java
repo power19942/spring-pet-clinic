@@ -1,6 +1,5 @@
-package com.omar.petclinic.model.services;
+package com.omar.petclinic.services;
 
-import com.omar.petclinic.model.Owner;
 import com.omar.petclinic.model.Pet;
 
 import java.util.Set;

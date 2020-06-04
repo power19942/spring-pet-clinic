@@ -1,7 +1,5 @@
 package com.omar.petclinic.model;
 
-import org.apache.tomcat.jni.Local;
-
 import java.time.LocalDate;
 
 public class Pet {
